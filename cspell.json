@@ -1,0 +1,17 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [],
+    "ignoreWords": [
+        "Tene",
+        "cssnano",
+        "github",
+        "imagenes",
+        "necolas",
+        "tipografia",
+        "webp"
+    ],
+    "import": []
+}
