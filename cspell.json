@@ -5,11 +5,17 @@
     "dictionaries": [],
     "words": [],
     "ignoreWords": [
+        "Quidem",
         "Tene",
+        "adipisicing",
+        "amet",
+        "consectetur",
         "cssnano",
+        "elit",
         "github",
         "imagenes",
         "necolas",
+        "quas",
         "tipografia",
         "webp"
     ],
