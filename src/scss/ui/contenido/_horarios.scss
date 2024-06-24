@@ -6,56 +6,60 @@
     background-repeat: no-repeat;
     background-position: center, bottom center;
     color: v.$blanco;
-    @include m.tablet{
+
+    @include m.tablet {
         background-image: linear-gradient(to right, v.$primario 0%, v.$primario 50%, transparent 50%), url(../img/bg_horarios.jpg);
         background-position: center, top right;
 
     }
+
     &__grid {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
 
-        @include m.tablet{
+        @include m.tablet {
             grid-template-rows: unset;
-            @include m.grid(2,5rem);
-    
+            @include m.grid(2, 5rem);
+
         }
     }
-    &__contenido{
+
+    &__contenido {
         padding: 5rem 0;
     }
 
-    &__heading{
+    &__heading {
         @include m.heading;
     }
-    &__texto{
+
+    &__texto {
         font-size: 2.2rem;
         line-height: 1.8;
         text-align: center;
     }
 }
 
-.tabla{
+.tabla {
     width: 100%;
     border: .5rem solid v.$secundario;
     text-align: center;
     border-collapse: collapse;
 
-    &__thead{
+    &__thead {
         background-color: v.$secundario;
     }
 
-    &__th{
+    &__th {
         padding: 2rem;
     }
 
-    &__tr{
-        &:hover{
-            background-color: darken(v.$primario,10%);
+    &__tr {
+        &:hover {
+            background-color: darken(v.$primario, 10%);
         }
     }
-   
-    &__td{
+
+    &__td {
         padding: 1rem;
         font-size: 2.2rem;
     }
